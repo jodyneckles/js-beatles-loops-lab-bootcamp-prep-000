@@ -17,12 +17,12 @@ function johnLennonFacts(facts) {
   return facts;
 }
 
-function iLoveTheBeatles(i) {
+function iLoveTheBeatles(n) {
   var array = []
-  var i = 0;
-  i = i + 1;
+  do {
+    array.push("I love the Beatles!");
+    n++;
+  }
+  while (n < 15);
+  return array;
 }
-var array = []
-  do { array.push("I love the Beatles!");
-  iLoveTheBeatles();
-} while (array.length < 15);
